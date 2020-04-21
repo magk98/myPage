@@ -1,0 +1,102 @@
+body {
+    font-size: 16px;
+    color:  #6B6B6B;
+    background-color: #ffffff;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+}
+#div-content{
+    position: absolute;
+}
+/* NAVBAR */
+.navbar .navbar-collapse {
+    text-align: center;
+}
+.nav-link{
+    margin-right: 60px;
+    font-size: 1.5em;
+}
+.main-nav {
+    box-shadow: 0 4px 2px -2px rgba(0,0,0,.3);
+}
+/* MAIN CONTENT */
+#div-content{
+    display: block;
+    box-sizing: border-box;
+    float: none;
+    position: static;
+    margin-top: 50px;
+}
+#home{
+    width: 100%;
+    height: 595px;
+    left: 0;
+    right: 0;
+    margin-bottom: 15px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.16) 0%, rgba(255, 255, 255, 0) 100%), url('../images/background.png') no-repeat;
+}
+#name-line{
+    font-size: 54px;
+}
+#name-line, h3{
+    color: #fff;
+}
+h1 {
+    position: relative;
+    top: 50%;
+    overflow: hidden;
+    text-align: center;
+}
+h1::before, h1::after {
+    content: "";
+    display: inline-block;
+    height: 1px;
+    border: 2px solid #FFFFFF;
+    position: relative;
+    vertical-align: middle;
+    width: 10%;
+}
+h1::before {
+    right: 0.15em;
+    margin-left: -50%;
+}
+h1::after {
+    left: 0.15em;
+    margin-right: -50%;
+}
+.description h1::before, .description h1::after{
+    border: 2px solid #4F4F4F;
+}
+h1, h3{
+    position: relative;
+    top: 45%;
+    overflow: hidden;
+    text-align: center;
+}
+/* CONTENT-BOXES*/
+.description{
+    padding: 50px 15% 60px 15%;
+    font-size: 1.5em;
+    font-weight: normal;
+}
+.h1-line{
+    margin-bottom: 1.2rem;
+}
+#education{
+background-color: #B6C7F0;
+    left: 0;
+    right: 0;
+}
+
+/* FOOTER */
+.footer {
+    margin-top: 30px;
+    bottom: 0;
+    width: 100%;
+    height: 175px; /* Set the fixed height of the footer here */
+    line-height: 60px; /* Vertically center the text there */
+    background-color: #282C34;
+}
