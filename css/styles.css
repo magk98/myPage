@@ -86,9 +86,13 @@ h1, h3{
     margin-bottom: 1.2rem;
 }
 #education{
-background-color: #B6C7F0;
+    background-color: #76809A;
+    color: #EFEFEF;
     left: 0;
     right: 0;
+}
+#education h1::before, #education h1::after {
+    border: 2px solid #EFEFEF;
 }
 
 /* FOOTER */
@@ -96,7 +100,27 @@ background-color: #B6C7F0;
     margin-top: 30px;
     bottom: 0;
     width: 100%;
-    height: 175px; /* Set the fixed height of the footer here */
+    height: 190px; /* Set the fixed height of the footer here */
     line-height: 60px; /* Vertically center the text there */
     background-color: #282C34;
+}
+#footer-main{
+    color: #C2C2C2;
+    font-size: 2em;
+}
+.contact-svg{
+    width: 40px;
+    height: 40px;
+    margin: 10px 7px 10px 10px;
+    color: #C2C2C2;
+
+}
+.footer-links, .footer-links:hover{
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #C2C2C2;
+    margin: 10px;
+}
+.text-muted{
+    font-size: 0.8em;
 }
