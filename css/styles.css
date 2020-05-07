@@ -76,10 +76,6 @@ h1, h3{
     overflow: hidden;
     text-align: center;
 }
-.kotek{
-    color: rgba(0, 0, 0, 0);
-    margin-left: 10%;
-}
 /* CONTENT-BOXES*/
 .description{
     padding: 50px 15% 60px 15%;
